@@ -48,7 +48,7 @@ Detail| Value
 Name| OrangeLinux
 Base| openSUSE Tumbleweed
 Desktop| KDE Plasma 6
-Architecture| x86_64
+Architecture| aarch64
 Package format| RPM
 Package manager| Zypper
 Status| In development
