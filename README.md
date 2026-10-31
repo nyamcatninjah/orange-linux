@@ -1,57 +1,67 @@
-🍊 OrangeLinux
+OrangeLinux
 
-A Debian-based Linux remix with custom OrangeLinux branding and desktop customisation.
+Linux, the fruity way.
 
-OrangeLinux is an experimental Linux project built around Debian, designed to give users a customised desktop experience with orange branding and a few personal touches.
+OrangeLinux is an independent Linux distribution based on openSUSE Tumbleweed, featuring KDE Plasma 6 and a familiar desktop experience.
 
-✨ Features
+Features
 
-- 🐧 Debian-based Linux foundation
-- 🖥️ KDE Plasma desktop customisation
-- 🍊 OrangeLinux branding
-- 💻 Custom terminal and boot presentation
-- 🛠️ A shell script to automate system customisation
+- openSUSE Tumbleweed base
+- KDE Plasma 6 desktop
+- LibreOffice
+- Chromium
+- Thunderbird
+- VLC media player
+- Flatpak support
+- Custom OrangeLinux branding
 
-📦 Installation
+Installation
 
-Requirements
+Building OrangeLinux
 
-- An existing compatible Debian installation
-- An internet connection
-- Administrator access
+Clone the repository:
 
-Steps
+git clone https://github.com/nyamcatninjah/orange-linux.git
 
-1. Install Debian on your computer or test it in a virtual machine.
-2. Download "build-orangelinux2.sh" from this repository.
-3. Open a terminal in the folder containing the script.
-4. Run:
+Enter the project directory:
 
-sudo bash build-orangelinux2.sh
+cd orange-linux
 
-5. Follow any instructions displayed by the script.
+Run the build script:
 
-Important: This is an experimental project. Test it in a virtual machine first, back up important files, and inspect the script before running it with administrator privileges. Compatibility depends on your Debian version and the packages configured by the script.
+sudo bash build-orangelinux.sh
 
-🚧 Project status
+The script handles the build process and generates the OrangeLinux ISO.
 
-OrangeLinux is under development. Features, installation steps and compatibility may change between versions.
+Installing
 
-This project customises an existing Debian installation; it is not necessarily a standalone bootable ISO.
+1. Build the ISO.
+2. Test it in a virtual machine first.
+3. Install it on compatible hardware once you are happy with the result.
 
-🎯 Goals
+Warning: OrangeLinux is currently in development. Bugs and unfinished features are expected. Back up important data before installing.
 
-- Make OrangeLinux easier to install and use
-- Improve the desktop experience
-- Add more customisation and features
-- Document bugs and compatibility issues
+Project Information
 
-🤝 Contributing
+Detail| Value
+Name| OrangeLinux
+Base| openSUSE Tumbleweed
+Desktop| KDE Plasma 6
+Architecture| x86_64
+Package format| RPM
+Package manager| Zypper
+Status| In development
 
-Suggestions, bug reports and feedback are welcome! Please report problems through GitHub Issues.
+Contributing
 
-📜 Disclaimer
+Suggestions, feedback and bug reports are welcome!
 
-OrangeLinux is an independent community project and is not affiliated with or endorsed by the Debian Project or KDE.
+Visit the GitHub repository to contribute.
 
-OrangeLinux — a little more orange in your Linux. 🍊
+Repository
+
+https://github.com/nyamcatninjah/orange-linux
+
+Licence
+
+See the repository for licence information.
