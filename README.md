@@ -16,6 +16,7 @@ Features
 - Custom OrangeLinux branding
 
 Installation
+(Make sure you have OpenSUSE tumbleweed installed)
 
 Building OrangeLinux
 
